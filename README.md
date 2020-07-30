@@ -15,9 +15,9 @@ To run the project you should have npm, node in your machine. Assuming that you 
 ## Run on simulator - Android
 - Download and install Android Studio: https://developer.android.com/studio/.
 - Open Android studio and create an AVD: https://developer.android.com/studio/run/managing-avds.
-- Follow the steps in the Run on Device section, except for the last two.
+- Follow the steps in the "Run on Device" section, except for the last two.
 
 ## Run on simulator - Ios (mac only)
 - Download and install Xcode: https://developer.android.com/studio/
 - Install Xcode Command Line Tools: Open Xcode, choose "Preferences". Go to the Locations panel and install the tools.
-- Follow the steps in the Run on Device section, except for the last two.
+- Follow the steps in the "Run on Device" section, except for the last two.
