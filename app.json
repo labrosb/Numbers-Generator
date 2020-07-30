@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "numbers-generator",
+    "slug": "numbers-generator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/myIcon.png",
+    "splash": {
+      "image": "./assets/mySplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6d7099"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
