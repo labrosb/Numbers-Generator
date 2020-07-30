@@ -5,7 +5,6 @@ import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
 import { store } from './src/state/store';
 import NumbersGeneratorScreen from './src/screens/NumbersScreen';
-import OpenSans from './assets/fonts/openSans/OpenSans-Regular.ttf';
 /**
  * Numbers Generator is a single page mobile application
  * The current app has no need for multiple roots infrastructure. However
@@ -23,7 +22,10 @@ const styles = StyleSheet.create({
 
 const App: React.FC<void> = () => {
   // Hook for async fonts loading
-  const [fontsLoaded] = useFonts({ OpenSans });
+  const [fontsLoaded] = useFonts({
+    /* eslint-disable-next-line global-require */
+    OpenSansRegular: require('./assets/fonts/openSans/OpenSansRegular.ttf')
+  });
   // When fonts are loaded, render app
   if (fontsLoaded) {
     return (
