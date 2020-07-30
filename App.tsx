@@ -6,13 +6,8 @@ import { useFonts } from 'expo-font';
 import { store } from './src/state/store';
 import NumbersGeneratorScreen from './src/screens/NumbersScreen';
 import OpenSans from './assets/fonts/openSans/OpenSans-Regular.ttf';
-
 /**
- * - The App is built using expo for easier testing in different devices
- * in a real production case the app would either be built using the native
- * solution or ejected from expo, with additional android / ios configurations
- *
- * - Numbers Generator is a single page mobile application
+ * Numbers Generator is a single page mobile application
  * The current app has no need for multiple roots infrastructure. However
  * the project architecture / infrastructure is designed keeping in mind
  * scalability and extensibility.
