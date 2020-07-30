@@ -17,14 +17,14 @@ To run the project you should have npm, node in your machine. Assuming that you 
 - Open Android studio and create an AVD: https://developer.android.com/studio/run/managing-avds.
 - Follow the steps in the "Run on Device" section, except for the last two.
 
-## Run on simulator - Ios (macOS only)
+## Run on simulator - ios (macOS only)
 - Download and install Xcode: https://developer.android.com/studio/
 - Install Xcode Command Line Tools: Open Xcode, choose "Preferences". Go to the Locations panel and install the tools.
 - Follow the steps in the "Run on Device" section, except for the last two.
 
 ## Run unit tests
 The unit testing is made using jest and enzyme.
-- Navigate to the root of the project and run 'npm run tests'
+- Navigate to the root of the project and run 'npm run test'
 
 * Due to a bug with jest-expo unit testing in projects using the latest expo and jest-expo versions is not possible.
 to work around this issue the jest-expo project dependency points to the temporary custom repository labrosb/expo-jest-temp in which I resolved the issue.
